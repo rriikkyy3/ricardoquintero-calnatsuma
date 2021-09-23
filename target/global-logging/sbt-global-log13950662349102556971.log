@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(2437cb09-9f59-4bb2-8f82-0fa3762af675), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/s4n/Downloads/examen/ricardoquintero-calnatsuma/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/examen/ricardoquintero-calnatsuma/src/main/scala/co/s4n/listas/Lista.scala:7:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef longitud(lst:Lista):Int = lst match {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/examen/ricardoquintero-calnatsuma/src/main/scala/co/s4n/listas/Main.scala:13:67: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      	  deListaALista(Source.fromFile(src).getLines().toList.map(.toInt))[0m
+[0m[[0m[31merror[0m] [0m[0m      	                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/examen/ricardoquintero-calnatsuma/src/main/scala/co/s4n/listas/Main.scala:14:4: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m	  }[0m
+[0m[[0m[31merror[0m] [0m[0m	  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Sep 23, 2021, 3:08:36 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

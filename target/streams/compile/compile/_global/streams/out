@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/examen/ricardoquintero-calnatsuma/src/main/scala/co/s4n/listas/Lista.scala:7:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef longitud(lst:Lista):Int = lst match {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/examen/ricardoquintero-calnatsuma/src/main/scala/co/s4n/listas/Main.scala:13:67: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      	  deListaALista(Source.fromFile(src).getLines().toList.map(.toInt))[0m
+[0m[[0m[31merror[0m] [0m[0m      	                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Downloads/examen/ricardoquintero-calnatsuma/src/main/scala/co/s4n/listas/Main.scala:14:4: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m	  }[0m
+[0m[[0m[31merror[0m] [0m[0m	  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

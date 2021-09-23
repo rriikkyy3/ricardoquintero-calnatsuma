@@ -1,0 +1,7 @@
+import scala.io.Source
+
+object Main Extends App{
+
+       def deListALista(lst:List[Int]):Lista = lst match{
+       	   case Nil => Vacia()
+	   case (i::)
